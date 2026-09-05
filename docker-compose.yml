@@ -1,0 +1,7 @@
+services:
+  inventory-api:
+    image: shopfast/inventory:v2
+    environment:
+      - AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+      - AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+      - STRIPE_LIVE_SECRET_KEY=sk_live_51Oxxxxxxxxxxxxxxx
